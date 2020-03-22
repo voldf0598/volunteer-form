@@ -1,8 +1,31 @@
 html {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Noto Serif', bold;
 }
 
 .yikes {
   background-color: #70ad55;
+  color: #fff;
+  font-family: 'Noto Serif', bold;
+  line-height: 1.6;
+}
+
+fieldset{
+border: none;
+}
+
+input, textarea{
+  border-color: #6e8c62;
+}
+
+select {
+  border-color: #6e8c62;
+}
+
+hr{
+  border-color: #70ad55;;
+}
+
+.yeet{
+  background-color: #6e8c62;
   color: #fff;
 }
