@@ -12,13 +12,13 @@
 </head>
 <body>
 
-  <section class="island">
-    <div>
+  <section>
+    <div class="yikes text-center">
       <h1>Apply to be a tree planter</h1>
       <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
     </div>
 
-    <form>
+    <form class="gutter">
       <fieldset>
         <legend>Personal details</legend>
 
@@ -250,9 +250,27 @@
         </fieldset>
       </div>
 
+      <div>
+        <fieldset>
+          <legend>Please let us know any comments or questions you may have.</legend>
 
+          <div>
+            <label for="comments"></label>
+            <textarea id="comments" name="name"></textarea>
+          </div>
 
+          <div>
+            <button class="btn" type="submit">Apply</button>
+            <input type="hidden" name="_subject">
+          </div>
 
+          <footer>
+            <small>
+              <p>© Tree Hugger International Organization</p>
+            </small>
+          </footer>
 
+        </fieldset>
+      </div>
     </form>
   </section>
