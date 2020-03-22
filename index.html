@@ -12,7 +12,7 @@
 </head>
 <body>
 
-  <section>
+  <section class="island">
     <div>
       <h1>Apply to be a tree planter</h1>
       <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
@@ -23,6 +23,7 @@
         <legend>Personal details</legend>
 
         <div>
+
           <div>
             <label for="name">Full name</label>
             <input id="name">
@@ -37,10 +38,115 @@
 
           <div>
             <label for="date">Date of birth</label>
-            <input id="date" value="yyyy-mm-dd">
+            <input id="date" type="date">
           </div>
 
+          <div>
+            <label for="shirts">T-shirt size</label>
+            <select id="shirts" name="name">
+              <option>Select a t-shirt size</option>
+              <option>Fitted: XS"</option>
+              <option>Fitted: S"</option>
+              <option>Fitted: M"</option>
+              <option>Fitted: L"</option>
+              <option>Fitted: XL"</option>
+              <option>Straight-cut: XS"</option>
+              <option>Straight-cut: S"</option>
+              <option>Straight-cut: M"</option>
+              <option>Straight-cut: L"</option>
+              <option>Straight-cut: XL"</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="tel">Phone number (optional)</label>
+            <input id="tel" type="tel">
+          </div>
+
+          <div>
+            <label for="email">Email</label>
+            <input id="email">
+          </div>
 
         </div>
-      </form>
-    </section>
+      </fieldset>
+
+      <hr>
+
+      <fieldset>
+        <legend>Address</legend>
+
+        <div>
+
+          <div>
+            <label for="Address">Street Address</label>
+            <input id="Address">
+          </div>
+
+          <div>
+            <label for="text">City</label>
+            <input id="text">
+          </div>
+
+          <div>
+            <label for="postal-code">Postal code</label>
+            <input id="postal-code">
+          </div>
+
+          <div>
+            <label for="province">Province</label>
+            <select id="province" name="name">
+              <option>Select a province</option>
+              <option>Alberta</option>
+              <option>British Columbia</option>
+              <option>Manitoba</option>
+              <option>New Brunswick</option>
+              <option>Newfoundland & Labrador</option>
+              <option>Northwest Territories</option>
+              <option>Nova Scotia</option>
+              <option>Nunavut</option>
+              <option>Ontario</option>
+              <option>Prince Edward Island</option>
+              <option>Québec</option>
+              <option>Saskatchewan</option>
+              <option>Yukon</option>
+            </select>
+          </div>
+
+        </div>
+      </fieldset>
+
+      <div>
+
+        <fieldset>
+          <legend>What activities are you interested in helping with?</legend>
+
+          <div>
+            <input type="checkbox" id="digging-holes" name="activities">
+            <label for="digging holes">Digging holes</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="getting-drity" name="activities">
+            <label for="getting-drity">Getting dirty</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="lifting-heavy-objects" name="activities">
+            <label for="lifting-heavy-objects">Lifting heavy objects</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="driving-people" name="activities">
+            <label for="driving-people">Driving people</label>
+          </div>
+
+        </div>
+      </fieldset>
+
+
+
+
+
+  </form>
+</section>
